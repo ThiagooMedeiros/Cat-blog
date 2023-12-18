@@ -18,3 +18,24 @@ header {
   padding: 12px 28px;
   gap: 25.5px;
 }
+#imgCat {
+  padding: 8px;
+  background: #f4fcff;
+  border-radius: 50%;
+}
+header > input {
+  width: 100%;
+  max-width: 1083px;
+  padding: 12px 16px 12px 14px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 0;
+  color: white;
+}
+input::placeholder {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%; /* 16px */
+}
