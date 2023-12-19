@@ -19,6 +19,9 @@ header {
   gap: 25.5px;
 }
 #imgCat {
+  width: 40px;
+  height: 40px;
+
   padding: 8px;
   background: #f4fcff;
   border-radius: 50%;
@@ -37,5 +40,10 @@ input::placeholder {
   font-family: Mulish;
   font-size: 16px;
   font-weight: 600;
-  line-height: 100%; /* 16px */
+}
+#imgUser {
+  border-radius: 50%;
+
+  max-width: 42px;
+  max-height: 42px;
 }
