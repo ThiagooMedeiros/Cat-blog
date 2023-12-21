@@ -47,3 +47,10 @@ input::placeholder {
   max-width: 42px;
   max-height: 42px;
 }
+
+main > img {
+  width: 100%;
+}
+.wrapped-main {
+  padding: 20px;
+}
