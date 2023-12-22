@@ -54,3 +54,12 @@ main > img {
 .wrapped-main {
   padding: 20px;
 }
+.wrapped-main img {
+  background: var(--Brand-Colors-Explorer-dark, #065e7c);
+
+  padding: 12px;
+  border-radius: 50%;
+}
+#dislike {
+  transform: rotate(180deg);
+}
