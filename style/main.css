@@ -1,0 +1,26 @@
+main > img {
+  width: 100%;
+}
+.wrapped-main {
+  padding: 20px;
+}
+.wrapped-main > h1 {
+  margin: 10px 0 5px;
+  color: var(--Platform-Aliases-Shape-principal, #202024);
+  font-size: 24px;
+  font-weight: 700;
+}
+.wrapped-main img {
+  background: var(--Brand-Colors-Explorer-dark, #065e7c);
+
+  padding: 12px;
+  border-radius: 50%;
+
+  margin-bottom: 30px;
+}
+#dislike {
+  transform: rotate(180deg);
+}
+.text p:nth-child(1) {
+  margin-bottom: 26px;
+}
