@@ -6,12 +6,12 @@ main > img {
 }
 .wrapped-main > h1 {
   margin: 10px 0 5px;
-  color: var(--Platform-Aliases-Shape-principal, #202024);
+  color: var(--Platform-Aliases-Shape-principal);
   font-size: 24px;
   font-weight: 700;
 }
 .wrapped-main img {
-  background: var(--Brand-Colors-Explorer-dark, #065e7c);
+  background: var(--Brand-Colors-Explorer-dark);
 
   padding: 12px;
   border-radius: 50%;
