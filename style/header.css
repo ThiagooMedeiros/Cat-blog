@@ -1,5 +1,5 @@
 header {
-  background: var(--Brand-Colors-Explorer-dark, #065e7c);
+  background: var(--Brand-Colors-Explorer-dark);
   display: flex;
   align-items: center;
   justify-content: center;
