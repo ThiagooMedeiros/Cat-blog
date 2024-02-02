@@ -17,3 +17,12 @@ body {
   --Brand-Colors-Explorer-dark: #065e7c;
   --Platform-Aliases-Shape-principal: #202024;
 }
+
+.wrapped-aside {
+  padding: 20px;
+}
+.section > img {
+  width: 100%;
+  max-width: 151px;
+  max-height: 84px;
+}
