@@ -21,6 +21,14 @@ body {
 .wrapped-aside {
   padding: 20px;
 }
+h2 {
+  margin-bottom: 32px;
+}
+.section {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
 .section > img {
   width: 100%;
   max-width: 151px;
