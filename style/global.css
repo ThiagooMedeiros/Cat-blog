@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(main.css);
 @import url(aside.css);
+@import url(footer.css);
 
 * {
   margin: 0;
@@ -17,15 +18,4 @@ body {
 :root {
   --Brand-Colors-Explorer-dark: #065e7c;
   --Platform-Aliases-Shape-principal: #202024;
-}
-
-footer {
-  width: 100%;
-  max-height: 64px;
-  padding: 16px;
-  background: #387e96;
-}
-footer > p {
-  color: #fff;
-  text-align: center;
 }
