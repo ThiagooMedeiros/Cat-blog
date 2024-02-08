@@ -2,6 +2,11 @@
   padding: 20px;
 }
 h2 {
+  color: var(--Platform-Aliases-Shape-principal, #202024);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 160%; /* 38.4px */
+
   margin-bottom: 32px;
 }
 .section {
@@ -13,4 +18,16 @@ h2 {
   width: 100%;
   max-width: 151px;
   max-height: 84px;
+}
+.text > h3 {
+  color: var(--Platform-Aliases-Shape-principal, #202024);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 160%; /* 28.8px */
+}
+.text > p {
+  color: var(--Platform-Aliases-Background, #121214);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
 }

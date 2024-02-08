@@ -5,7 +5,7 @@ main > img {
   padding: 20px;
 }
 .wrapped-main > h1 {
-  margin: 10px 0 5px;
+  margin: 10px 0 8px;
   color: var(--Platform-Aliases-Shape-principal);
   font-size: 24px;
   font-weight: 700;
