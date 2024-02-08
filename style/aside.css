@@ -3,7 +3,7 @@
 }
 h2 {
   color: var(--Platform-Aliases-Shape-principal, #202024);
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
   line-height: 160%; /* 38.4px */
 
@@ -19,15 +19,15 @@ h2 {
   max-width: 151px;
   max-height: 84px;
 }
-.text > h3 {
+.text-aside > h3 {
   color: var(--Platform-Aliases-Shape-principal, #202024);
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 160%; /* 28.8px */
 }
-.text > p {
+.text-aside > p {
   color: var(--Platform-Aliases-Background, #121214);
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 160%; /* 22.4px */
 }

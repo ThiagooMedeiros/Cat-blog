@@ -16,6 +16,8 @@ body {
   font-family: Mulish;
 }
 :root {
+  font-size: 62.5%; /*10px padrão*/
+
   --Brand-Colors-Explorer-dark: #065e7c;
   --Platform-Aliases-Shape-principal: #202024;
 }
