@@ -31,3 +31,14 @@ h2 {
   font-weight: 400;
   line-height: 160%; /* 22.4px */
 }
+
+@media (min-width: 1024px) {
+  .wrapped-aside {
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-aside > p {
+    max-width: 300px;
+  }
+}
