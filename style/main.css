@@ -4,7 +4,7 @@ main > img {
 .wrapped-main {
   padding: 20px;
 }
-.wrapped-main > h1 {
+.secction > h1 {
   margin: 10px 0 8px;
   color: var(--Platform-Aliases-Shape-principal);
   font-size: 2.4rem;
@@ -29,4 +29,27 @@ main > img {
 }
 .text p:nth-child(1) {
   margin-bottom: 26px;
+}
+
+@media (min-width: 1024px) {
+  main > img {
+    max-width: 803px;
+    max-height: 405px;
+    width: 100%;
+  }
+
+  .text > p {
+    max-width: 800px;
+  }
+
+  .secction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 32px;
+  }
+  .wrapped-main img {
+    margin: 0;
+  }
 }
