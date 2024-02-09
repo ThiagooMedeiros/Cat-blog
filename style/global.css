@@ -21,3 +21,12 @@ body {
   --Brand-Colors-Explorer-dark: #065e7c;
   --Platform-Aliases-Shape-principal: #202024;
 }
+@media (min-width: 1024px) {
+  .app {
+    padding: 44px 100px 44px;
+
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+  }
+}
